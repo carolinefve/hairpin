@@ -1,0 +1,10 @@
+# Flash layout for the hairpin recorder (XIAO ESP32-S3, 8MB flash).
+# Arduino uses this file automatically because it sits next to the .ino.
+# It gives ~5.3MB to recording storage instead of the usual 1.5MB,
+# so about 2.5-3 minutes of audio can wait offline instead of ~45 seconds.
+# Name,    Type, SubType,  Offset,   Size
+nvs,       data, nvs,      0x9000,   0x5000
+otadata,   data, ota,      0xe000,   0x2000
+app0,      app,  ota_0,    0x10000,  0x280000
+spiffs,    data, spiffs,   0x290000, 0x560000
+coredump,  data, coredump, 0x7F0000, 0x10000
