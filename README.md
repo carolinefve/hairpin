@@ -221,3 +221,7 @@ Free at diary scale. Workers AI's free 10,000 neurons a day covers roughly 200 m
 | Stuck at `Waiting for button release`, or recordings start by themselves | Run `button_test.ino`: the D0 button is reading as pressed; check its wiring and the 10 kΩ resistor |
 | Pushcut shows `[Upgrade needed]`                                         | Use the Open URL action; the Worker sends no custom text                                            |
 | Shortcut asks what to write                                              | Use **contains ☁️**, not "has any value"                                                            |
+
+## Credits
+
+@ux_deniza voice diary hairpin <3 (full guide)
